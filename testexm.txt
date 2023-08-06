@@ -1,0 +1,150 @@
+<window typewin=GTK_WINDOW_TOPLEVEL,dfs=800|800,ico=C:\\Users\\USER\\Desktop\\GTK\\exam_tp\\icon.png,>
+    <child headerbar>
+        <headbar clbsh=TRUE,title=Test Macro GTK-20222-2023,icon=TRUE,>
+        </headbar>
+    </child>
+    <child container-add>
+            <fixed >
+                <child 400|0>
+                    <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,border=* { border: black solid 2px;},>
+                        <child pack-start>
+                            <label labna=Joueur Premier,xlig=0,>
+                            </label>
+                        </child>
+                        <child pack-start>
+                           <rdbutton label=ONE,mainrdb=TRUE,>
+                           </rdbutton>
+                        </child>
+                        <child pack-start>
+                           <rdbutton label=TWO,>
+                           </rdbutton>
+                        </child>
+                    </box >
+                </child>
+                <child 0|200>
+                    <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                        <child pack-start>
+                            <label labna=Color ONE,xlig=0,>
+                            </label>
+                        </child>
+                        <child pack-start>
+                            <combotext >
+                                   <text value=Faite votre choix,visib=TRUE,numvis=0,>
+                                   </text>
+                                   <text value=BLEU,>
+                                   </text>
+                                   <text value=ROUGE,>
+                                   </text>
+                            </combotext >
+                        </child>
+                    </box >
+                </child>
+                <child 0|200>
+                    <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                        <child pack-start>
+                            <label labna=Color TWO,xlig=0,>
+                            </label>
+                        </child>
+                        <child pack-start>
+                            <combotext >
+                                   <text value=Faite votre choix,visib=TRUE,numvis=0,>
+                                   </text>
+                                   <text value=BLEU,>
+                                   </text>
+                                   <text value=ROUGE,>
+                                   </text>
+                            </combotext >
+                        </child>
+                    </box >
+                </child>
+                <child 400|200>
+                   <combotext >
+                          <text value=Faite votre choix,visib=TRUE,numvis=0,>
+                          </text>
+                          <text value=2,>
+                          </text>
+                          <text value=4,>
+                          </text>
+                          <text value=6,>
+                          </text>
+                   </combotext >
+                </child>
+                <child 0|340>
+                    <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,border=* { border: black solid 2px;},>
+                        <child pack-start>
+                            <label labna=ONE TOP\Buttom,xlig=0,>
+                            </label>
+                        </child>
+                        <child pack-start>
+                           <rdbutton label=TOP,mainrdb=TRUE,>
+                           </rdbutton>
+                        </child>
+                        <child pack-start>
+                           <rdbutton label=Buttom,>
+                           </rdbutton>
+                        </child>
+                    </box >
+                </child>
+                <child 0|340>
+                    <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,border=* { border: black solid 2px;},>
+                        <child pack-start>
+                            <label labna=TWO TOP\Buttom,xlig=0,>
+                            </label>
+                        </child>
+                        <child pack-start>
+                           <rdbutton label=TOP,mainrdb=TRUE,>
+                           </rdbutton>
+                        </child>
+                        <child pack-start>
+                           <rdbutton label=Buttom,>
+                           </rdbutton>
+                        </child>
+                    </box >
+                </child>
+                <child 0|340>
+                    <btn lab=New Game,signal=func,>
+                    </btn>
+                </child>
+            </fixed>
+    </child>
+</window >
+
+
+<window typewin=GTK_WINDOW_TOPLEVEL,dfs=400|100,sh=TRUE,>
+    <child headerbar>
+        <headbar clbsh=TRUE,declay=menu:close,title= ,subt= ,>
+        </headbar>
+    </child>
+    <child container-add>
+        <fixed >
+            <child 0|2>
+                <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                    <child pack-start>
+                        <image icona=dialog-warning,icons=GTK_ICON_SIZE_MENU,>
+                        </image>
+                    </child>
+                    <child pack-start>
+                        <label labna=Vouler vous afficher une image ?,>
+                        </label>
+                    </child>
+                </box >
+            </child>
+            <child 0|40>
+                <box orien=GTK_ORIENTATION_HORIZONTAL,spac=8,>
+                    <child pack-start>
+                        <btn lab=Oui,>
+                        </btn>
+                    </child>
+                    <child pack-start>
+                        <btn lab=Non,>
+                        </btn>
+                    </child>
+                    <child pack-start>
+                        <btn lab=Annuler,>
+                        </btn>
+                    </child>
+                </box >
+            </child>
+        </fixed>
+    </child>
+</window >

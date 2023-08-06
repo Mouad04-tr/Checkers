@@ -1,0 +1,50 @@
+.chks-grid{
+    background-image: url("checke1r2s.png");
+}
+
+.Newgamebtn{
+    background: aqua;
+}
+
+.chks-field{
+    border-radius: 100%;
+    border-width:  0px;
+    border-color:  transparent;
+    color:         transparent;
+    background:    transparent;
+    opacity:       0;
+    box-shadow:    none;
+}
+
+.chks-player-one{
+    background: blue;
+    opacity:     1;
+}
+
+.chks-player-one-quenn{
+    background: #111170;
+    opacity:     1;
+}
+
+
+.chks-player-two-quenn{
+    background: #650404;
+    opacity:    1;
+}
+
+.chks-player-two{
+    background: yellow;
+    opacity:    1;
+}
+
+
+.chks-player-one-pre {
+        background: blue;
+        opacity:    0.5;
+}
+
+
+.chks-player-two-pre {
+        background: yellow;
+        opacity:    0.5;
+}

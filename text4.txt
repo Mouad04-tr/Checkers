@@ -1,0 +1,32 @@
+<window typewin=GTK_WINDOW_TOPLEVEL,dfs=400|250,>
+    <child headerbar>
+        <headbar clbsh=TRUE,declay=menu:close,title= ,subt= ,>
+        </headbar>
+    </child>
+    <child container-add>
+        <fixed >
+            <child 0|0>
+                <menu dir=GTK_PACK_DIRECTION_LTR,>
+                    <item mnemo=_SAVE,>
+                    </item >
+                    <item mnemo=_EDIT,>
+                        <item mnemo=SousChoix1,icon=zoom-in,short=Ctrl*,>
+                        </item >
+                        <item mnemo=SousChoix2,icon=zoom-in,short=Ctrl+,>
+                            <item mnemo=Choix221,>
+                            </item >
+                            <item mnemo=Choix222,>
+                            </item >
+                            <item mnemo=Choix223,>
+                            </item >
+                        </item >
+                        <item mnemo=SousChoix3,icon=zoom-in,short=Ctrl-,>
+                        </item >
+                    </item >
+                    <item mnemo=_OPEN,>
+                    </item >
+                </menu >
+            </child>
+        </fixed>
+    </child>
+</window >

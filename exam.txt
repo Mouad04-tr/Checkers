@@ -1,0 +1,260 @@
+<window typewin=GTK_WINDOW_TOPLEVEL,dfs=800|800,ico=C:\\Users\\USER\\Desktop\\GTK\\exam_tp\\icon.png,>
+        <child headerbar>
+            <headbar clbsh=TRUE,title=Test Macro GTK-20222-2023,icon=TRUE,>
+            </headbar>
+        </child>
+    <child container-add>
+        <scrollwin >
+            <child container-add>
+                    <fixed >
+                        <child 0|0>
+                            <menu dir=GTK_PACK_DIRECTION_LTR,>
+                                <item label=Fichier,>
+                                    <item label=Enregistrer,icon=zoom-in,>
+                                    </item >
+                                    <item label=Enregistrer sous,icon=zoom-in,>
+                                    </item >
+                                    <item label=Enregistrer au format Adobe PDF,icon=zoom-in,>
+                                    </item >
+                                    <item label=Ouvrir,icon=zoom-in,>
+                                    </item >
+                                    <item label=Fermer,icon=zoom-in,>
+                                    </item >
+                                </item >
+                                <item label=Accueil,>
+                                </item >
+                                <item label=Insertion,>
+                                </item >
+                            </menu >
+                        </child>
+                        <child 400|0>
+                            <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                                <child pack-start>
+                                    <label labna=Listes choix multiple,xlig=0,>
+                                    </label>
+                                </child>
+                                <child pack-start>
+                                    <box orien=GTK_ORIENTATION_VERTICAL,spac=2,border=* { border: black solid 2px;},>
+                                        <child pack-start>
+                                            <ckbutton label=Mon 1er Choix,>
+                                            </ckbutton>
+                                        </child>
+                                        <child pack-start>
+                                            <ckbutton label=Mon 2d Choix,>
+                                            </ckbutton>
+                                        </child>
+                                        <child pack-start>
+                                            <ckbutton label=Mon 3e Choix,>
+                                            </ckbutton>
+                                        </child>
+                                        <child pack-start>
+                                            <ckbutton label=Mon dernier choix,>
+                                            </ckbutton>
+                                        </child>
+                                    </box >
+                                </child>
+                            </box >
+                        </child>
+                        <child 0|200>
+                            <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                                <child pack-start>
+                                    <label labna=Listes Déroulante :Multi Choix,xlig=0,>
+                                    </label>
+                                </child>
+                                <child pack-start>
+                                    <box orien=GTK_ORIENTATION_VERTICAL,spac=2,border=* { border: black solid 2px;},>
+                                        <child pack-start>
+                                           <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                                               <child pack-start>
+                                                   <label labna=choix parmis 5 :,xlig=0,>
+                                                   </label>
+                                               </child>
+                                               <child pack-start>
+                                                   <combotext >
+                                                       <text value=Faite votre choix,visib=TRUE,numvis=5,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                   </combotext >
+                                               </child>
+                                           </box >
+                                        </child>
+                                        <child pack-start>
+                                            <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                                               <child pack-start>
+                                                   <label labna=choix parmis 7 :,xlig=0,>
+                                                   </label>
+                                               </child>
+                                               <child pack-start>
+                                                   <combotext >
+                                                       <text value=Faite votre choix,visib=TRUE,numvis=7,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                       <text value=1,>
+                                                       </text>
+                                                   </combotext >
+                                               </child>
+                                           </box >
+                                        </child>
+                                    </box >
+                                </child>
+                            </box >
+                        </child>
+                        <child 400|200>
+                           <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                               <child pack-start>
+                                   <label labna=Boutons Radio Horizontales,xlig=0,>
+                                   </label>
+                               </child>
+                               <child pack-start>
+                                   <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,border=* { border: black solid 2px;},>
+                                       <child pack-start>
+                                           <rdbutton label=Premier,mainrdb=TRUE,>
+                                           </rdbutton>
+                                       </child>
+                                       <child pack-start>
+                                           <rdbutton label=Deuxiéme,>
+                                           </rdbutton>
+                                       </child>
+                                       <child pack-start>
+                                           <rdbutton label=Troisiéme,>
+                                           </rdbutton>
+                                       </child>
+                                   </box >
+                               </child>
+                           </box >
+                        </child>
+                        <child 0|340>
+                            <box orien=GTK_ORIENTATION_HORIZONTAL,spac=15,>
+                                <child pack-start>
+                                    <btn mnemonic=_OK,back=* { background-image:url("6348833.jpg");},signal=func,>
+                                    </btn>
+                                </child>
+                                <child pack-start>
+                                    <btn mnemonic=_Quitter,signal=destroy,back=* { background-image:url("6348833.jpg");},>
+                                    </btn>
+                                </child>
+                            </box >
+                        </child>
+                        <child 400|300>
+                        <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                                <child pack-start>
+                                    <label labna=Saisir du login et de mot de passe :zone de texte,xlig=0,>
+                                    </label>
+                                </child>
+                                <child pack-start>
+                                    <box orien=GTK_ORIENTATION_VERTICAL,spac=5,border=* { border: black solid 2px;},>
+                                        <child pack-start>
+                                            <entry vis=TRUE,fram=TRUE,purp=GTK_INPUT_PURPOSE_EMAIL,plah=Login,>
+                                            </entry>
+                                        </child>
+                                        <child pack-start>
+                                            <entry vis=FALSE,fram=TRUE,purp=GTK_INPUT_PURPOSE_PASSWORD,plah=Mot de passe,>
+                                            </entry>
+                                        </child>
+                                        <child pack-start>
+                                            <ckbutton label=Maintenir la connexion,>
+                                            </ckbutton>
+                                        </child>
+                                        <child pack-start>
+                                            <btn lab=Se connecter,>
+                                            </btn>
+                                        </child>
+                                    </box >
+                                </child>
+                            </box >
+                        </child>
+                        <child 0|400>
+                            <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                                <child pack-start>
+                                    <label labna=Button Radio Verticales,xlig=0,>
+                                    </label>
+                                </child>
+                                <child pack-start>
+                                    <box orien=GTK_ORIENTATION_VERTICAL,spac=2,border=* { border: black solid 2px;},>
+                                        <child pack-start>
+                                            <rdbutton label=Faible,mainrdb=TRUE,>
+                                            </rdbutton>
+                                        </child>
+                                        <child pack-start>
+                                            <rdbutton label=Moyen,>
+                                            </rdbutton>
+                                        </child>
+                                        <child pack-start>
+                                            <rdbutton label=Assez Bien,>
+                                            </rdbutton>
+                                        </child>
+                                        <child pack-start>
+                                            <rdbutton label=Bien,>
+                                            </rdbutton>
+                                        </child>
+                                        <child pack-start>
+                                            <rdbutton label=Trés Bien,>
+                                            </rdbutton>
+                                        </child>
+                                    </box >
+                                </child>
+                            </box >
+                        </child>
+                    </fixed>
+            </child>
+        </scrollwin>
+    </child>
+</window >
+<window typewin=GTK_WINDOW_TOPLEVEL,dfs=400|100,sh=TRUE,>
+    <child headerbar>
+        <headbar clbsh=TRUE,declay=menu:close,title= ,subt= ,>
+        </headbar>
+    </child>
+    <child container-add>
+        <fixed >
+            <child 0|2>
+                <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                    <child pack-start>
+                        <image icona=dialog-warning,icons=GTK_ICON_SIZE_MENU,>
+                        </image>
+                    </child>
+                    <child pack-start>
+                        <label labna=Vouler vous afficher une image ?,>
+                        </label>
+                    </child>
+                </box >
+            </child>
+            <child 0|40>
+                <box orien=GTK_ORIENTATION_HORIZONTAL,spac=8,>
+                    <child pack-start>
+                        <btn lab=Oui,>
+                        </btn>
+                    </child>
+                    <child pack-start>
+                        <btn lab=Non,>
+                        </btn>
+                    </child>
+                    <child pack-start>
+                        <btn lab=Annuler,>
+                        </btn>
+                    </child>
+                </box >
+            </child>
+        </fixed>
+    </child>
+</window >

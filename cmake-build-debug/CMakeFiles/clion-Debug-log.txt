@@ -1,0 +1,16 @@
+"C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\GTK\Checkers -B D:\GTK\Checkers\cmake-build-debug
+-- Found PkgConfig: C:/msys64/mingw64/bin/pkg-config.exe (found version "1.8.0") 
+-- Checking for module 'gtk+-3.0'
+--   Found gtk+-3.0, version 3.24.37
+-- Configuring done
+CMake Error at CMakeLists.txt:24 (add_executable):
+  Cannot find source file:
+
+    glob_variable.h
+
+
+CMake Error at CMakeLists.txt:24 (add_executable):
+  No SOURCES given to target: Checkers
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
