@@ -1,2 +1,1 @@
-# Checkers# Checkers
 # Checkers
